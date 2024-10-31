@@ -98,3 +98,7 @@ qrBtyes, err := thaiqr.GenerateQR(payload)
 ```
 ![VerifyQR.png](assets%2FVerifyQR.png)
 
+
+## Donate
+
+![PromptpayQR.png](assets%2FPromptpayQR.png)
