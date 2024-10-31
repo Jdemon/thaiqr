@@ -1,6 +1,7 @@
 package thaiqr_test
 
 import (
+	"github.com/Jdemon/thaiqr"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

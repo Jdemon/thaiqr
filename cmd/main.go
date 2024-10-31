@@ -38,7 +38,7 @@ func main() {
 	ppPayload, err := ppQR.GeneratePayload(thaiqr.PromptPayQRCmd{
 		ProxyID:   "0909764856",
 		ProxyType: thaiqr.ProxyTypeMsisdn,
-		Amount:    "1000000.00",
+		Amount:    "100.00",
 	})
 	if err != nil {
 		return
