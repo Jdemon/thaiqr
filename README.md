@@ -1,15 +1,3 @@
-# Deprecate THAI QR (AND BARCODE)
-
-##
-Deprecate move to https://gitdev.devops.krungthai.com/goofy/api/payment-channel/core/core-mb-transfer-promptpay-qr
-
-Pre-Requisite
-``` shell
-export GOPRIVATE=github.com/Jdemon/thaiqr,gitdev.devops.krungthai.com/*,gitdev.inno.ktb/*
-export GOPROXY=https://artifact.devops.krungthai.com/repository/goproxy,direct
-export GONOSUMDB=gitdev.inno.ktb/*,gitdev.devops.krungthai.com/*
-```
-
 ## How to install go package
 
 1. Run go-cli command
