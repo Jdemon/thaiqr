@@ -1,0 +1,13 @@
+test/
+.DS_Store
+out/
+dist/
+build/
+.out/
+.dist/
+.build/
+go.sum
+.idea
+configs/config-*.yaml
+/bin/
+coverage.out
