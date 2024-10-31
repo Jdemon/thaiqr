@@ -1,3 +1,7 @@
+# Thai QR
+
+GoLang Library to generate QR Code payload & image for Thai QR (PromptPay, Slip Verification)
+
 ## How to install go package
 
 1. Run go-cli command
@@ -31,13 +35,13 @@ func main() {
 func main() {
 	cmd := thaiqr.VerifyPaySlipQRCmd{
 		TransactionRef: "2023113077352422",
-		SendingBankID:  "006",
+		SendingBankID:  "004",
 		CountryCode:    thaiqr.CountryCodeTH,
 	}
 	qr := thaiqr.NewVerifyPaySlipQR()
 	payload, err := qr.GeneratePayload(cmd)
 	
-	// Payload: 003700060000010103006021620231130773524225102TH9104EC49
+	// Payload: 003700040000010103006021620231130773524225102TH9104EC49
 	fmt.Println("Payload: " + payload)
 }
 ```
